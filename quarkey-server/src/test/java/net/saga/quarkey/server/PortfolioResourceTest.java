@@ -22,4 +22,15 @@ public class PortfolioResourceTest {
              .body(hasToString(getResults));
     }
 
+    @Test
+    public void testAnonymousPostPortfolio() {
+        
+        given()
+          .when().post("/portfolio")
+          .then()
+             .statusCode(200)
+             .contentType("application/json")
+             .body(hasToString(getResults));
+    }
+
 }
