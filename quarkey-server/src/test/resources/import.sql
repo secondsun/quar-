@@ -1,1 +1,0 @@
-insert into portfolioentry(1);

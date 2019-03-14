@@ -13,6 +13,17 @@ public class PortfolioEntry extends PanacheEntity{
 
     public String name, description,demoUrl,githubUrl;
 
+    public PortfolioEntry() {
+
+    }
+
+    public PortfolioEntry(String name, String description, String demoUrl, String githubUrl) {
+        this.name = name;
+        this.description = description;
+        this.demoUrl = demoUrl;
+        this.githubUrl = githubUrl;
+    }
+
     @Override
     @JsonIgnore
     @JsonbTransient
