@@ -1,1 +1,1 @@
-insert into PortfolioEntry(id, demoUrl, description, githubUrl, name) values(1,'https://secondsun.dev' ,'A Quarkus and React based portfolio of my work.  You are looking at it right now.' , 'https://github.com/secondsun/quarkey', 'Quarkey');
+insert into PortfolioEntry(id, demoUrl, description, githubUrl, name) values(-1,'https://secondsun.dev' ,'A Quarkus and React based portfolio of my work.  You are looking at it right now.' , 'https://github.com/secondsun/quarkey', 'Quarkey');
